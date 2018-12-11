@@ -1,0 +1,202 @@
+header, nav, body, footer{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*Nav Start*/
+#navbar {
+  background-color: beige;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+ }
+#navbar a {
+  float: right;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: gray;
+}
+
+#navbar a:hover {
+  background-color: #d3d3d3;
+  height: 70%;
+  
+}
+
+
+/*Welcome Start*/
+header h1  {
+  position: center;
+  padding-top: 300px;
+}
+
+
+#welcome-section{
+  height: 100vh;
+  background-color: #ADD8E6;
+  text-align: center;
+  
+  
+ 
+}
+
+/*Body Start*/
+body {
+background-color: #ffa07a;
+}
+
+/*Flexbox*/
+#wdProjects{
+  margin-top: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+}
+
+.imageLink {
+  text-decoration: none;
+}
+#dmProjects{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 500px;
+ }
+
+.individualTile {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.project-tile {
+  margin-left: 20px;
+  max-width: 250px;
+  max-height: 250px;
+
+}
+
+
+.why {
+    border: solid 1px;
+    border-radius: 5px;
+    padding-right: 10px;
+    background-color: gray;
+    display: flex;
+    max-width: 50%;
+    margin-left:20px;
+    text-align: center;
+   
+}
+
+/* Star Wars Section */
+
+#deathStar {
+background-image: url(http://photos1.blogger.com/x/blogger/6280/658/1600/429533/death_star2.jpg);
+background-repeat: no-repeat;
+height: 300px;
+margin: 50px 0 0 100px;
+
+}
+#deathStar:hover {
+background-image: url(https://s.hswstatic.com/gif/death-star-7.jpg);
+
+}
+
+#alderaan {
+  background-image: url(https://vignette.wikia.nocookie.net/starwars/images/4/4a/Alderaan.jpg/revision/latest?cb=20061211013805);
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 50px 0 0 100px;
+
+}
+
+#alderaan:hover {
+background-image: url(http://image.news.livedoor.com/newsimage/b/a/bac62_88_10d0ec495f16fbd711e4e0059befd63f.jpg);
+}
+
+#question, #ship, #planet, #pop, #crew, #identify, #clarify {
+margin: 5px 0 0 100px;
+}
+
+#planet {
+  margin-top: 5px;
+}
+
+.links{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+
+
+}
+
+/*Quiz*/
+#jediSithQuiz {
+  background-color: black;
+  text-align: center;
+}
+
+#jediSithQuiz h2 {
+  color: #4BD5EE;
+  text-align: center;
+}
+
+#choice1, #choice2, #choice3, #choice4, #choice5 {
+  border-radius: 10px;
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#response {
+  color: yellow;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*Anakin Tale*/
+#constructor {
+  font-size: 20px;
+}
+
+/*Teams*/
+#getSithTeam, #getJediTeam {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+/*Bottom Section */
+@media only screen and (min-width: 600px){
+#bottom {
+  background-color: #ffffe0;
+  margin-bottom: 0px;
+}
+}
+@media only screen and (max-width: 599px){ #bottom {
+  background-color: #ffb6c1;
+}
+}
+#profile-link {
+  text-decoration: none;
+  color: gray;
+}
+
+/*Footer Start*/
+footer{
+  text-align: center;
+  background-color: #D3D3D3;
+  padding: 1px;
+  
+}
